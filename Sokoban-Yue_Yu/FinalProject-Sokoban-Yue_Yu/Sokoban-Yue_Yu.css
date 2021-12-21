@@ -1,0 +1,70 @@
+#mycanvas {
+    background-color: mintcream;
+}
+
+#nav {
+    width: 800px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn {
+    vertical-align: middle;
+    width: 100px;
+    height: 30px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: .4;
+    z-index: 1050;
+}
+.msgalert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    border: 1px solid #eee;
+    border-top: 3px solid #2d83ea;
+    width: 400px;
+    transform: translate(-50%,-50%);
+    z-index: 1051;
+}
+.header,.body{
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+}
+.content {
+    padding: 15px;
+}
+.dismiss {
+    cursor: pointer;
+    background: transparent;
+    float: right;
+    border: 0;
+    line-height: 1;
+    font-size: 22px;
+    color: #aaa;
+    margin-top: -2px;
+}
+.dismiss:hover {
+    color: #3f94fc;
+}
+.footer {
+    padding: 8px;
+    text-align: right;
+}
+.footer .okbtn {
+    background-color: #2f83ea;
+    border: 1px solid #2f83ea;
+    color: #fff;
+    padding: 5px 15px;
+}
+.footer .okbtn:hover {
+    background-color:#3f94fc;
+}

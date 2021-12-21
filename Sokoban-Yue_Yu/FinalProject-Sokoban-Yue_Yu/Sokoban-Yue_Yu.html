@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sokoban</title>
+    <link rel="stylesheet" type="text/css" href="Sokoban-Yue_Yu.css" />
+</head>
+
+<body>
+<div id="nav">
+    <button class="btn" onclick="lastLevel()">Last level</button>
+    <button class="btn" onclick="nextLevel()">Next level</button>
+    <button class="btn" onclick="restartLevel()">Restart</button>
+</div>
+<div id="move">Move:<br>
+    <p id="movesteps">0</p>
+</div>
+<div id="level">Level:<br>
+    <p id="levelnum"></p>
+</div>
+<canvas id="mycanvas" width="600" height="600"></canvas>
+<script src="Sokoban-Yue_Yu.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</body>
+</html>
